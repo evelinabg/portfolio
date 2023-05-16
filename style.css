@@ -1,0 +1,314 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    
+    background-color: rgb(234, 235, 245);
+   
+    
+}
+
+.hero{
+    background-color: rgb(3, 9, 70);
+    height:100vh;
+    color:aliceblue;
+    font-size: 30px;
+}
+.logo{
+    margin:20px;
+    font-size:30px;
+    font-weight: bold;
+
+    }
+
+
+footer{
+    background-color: black;
+    padding:80px;
+    text-align: center;
+   
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width:500px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+/*ul.show{
+  display: block;  
+}*/
+li{
+    width:200px;
+    text-decoration: none;
+}
+
+.hero-area,
+h1, h2, p{
+    align-items: center;
+    margin-left: 600px;
+}
+
+
+h1{
+    font-size: 60px;
+    margin-left: 130px;
+    align-items: center;
+    
+}
+
+h2{
+    font-size: 40px;
+    align-items: center;
+}
+
+p{
+    font-size: 20px;
+    margin:40px;
+    align-items: center;
+}
+
+
+.subtext{
+    font-size: 15px;
+}
+
+.hero-area{
+    display: flex;
+   
+    height:100%;
+    justify-content: space-between;
+  
+}
+
+.hero-text{
+    margin-left: 40px;
+    margin-bottom:200px;
+}
+
+
+.hero-text p{
+    margin-left:200px;
+    
+    
+}
+
+
+
+.button{
+   
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: darkorange;
+    text-align: center;
+    padding:10px 20px 10px 20px;
+    font-weight: 300;
+    font-size: 30px;
+    margin-top:20px;
+    margin-left: 20px;
+}
+
+.hero-text .button{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:200px;
+
+}
+
+.button:hover{
+background-color: rgb(245, 224, 34);
+}
+
+.button:active{
+background-color: rgb(55, 82, 1);
+color:gray
+}
+
+.socials{
+    padding-bottom: 200px;
+    margin:20px;
+    
+}
+
+.social{
+  
+   padding:20px;
+   font-size: 46px;
+   font-weight: 100px;
+}
+
+
+
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding:60px;
+}
+
+.sub-section-alternative{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding:80px;
+}
+
+
+.projCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:460px;
+    padding-bottom: 20px;
+}
+
+.headshot{
+    width:300px;
+    border-radius: 150px;
+
+}
+
+
+.headshot-container{
+    display:flex;
+    align-items: center;
+}
+
+
+.project-card{
+   width:350px;
+   height:500px; 
+   box-shadow: 5px 5px 20px rgb(119, 118, 118);
+   margin:10px;
+}
+
+.project-container{
+    display:flex;
+    justify-content: space-around;
+
+}
+
+/*.subtext{
+    background-color: rgba(248, 241, 233, 0.192);
+    border:0;
+   
+}*/
+
+@media only screen and  (max-width:1000px){
+    .project-container{
+        display:flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-image{
+    margin-top:25px;
+  width:250px;
+  height:200px;
+  border-radius: 20px;;
+}
+
+hr{
+    margin-left:20px;
+    margin-right:20px;
+    
+}
+
+.subtext {
+    border:0;
+}
+
+.project-link{
+    text-decoration:none; 
+    color:black  
+}
+
+a{
+    text-decoration: none;
+    color:rgb(245, 241, 241);
+    font-size: 20px;
+    
+}
+
+.hamburger {
+    display:none;
+  
+}
+
+.hamburger:focus{
+    outline:0;
+}
+
+@media only screen and (max-width:1000px){
+    .hamburger{
+        display:block;
+        border:0;
+        background-color:transparent;
+        color:white;
+        font-size:40px;
+        margin:20px;
+        align-self:flex-end;
+
+        
+    }
+
+    ul{
+      display:none; 
+      background-color: rgba(217, 217, 243, 0.144);
+      margin:0px;
+    }
+}
+
+ul.show{
+    display:block;
+}
+nav{
+    display:flex;
+   
+}
+
+@media only screens and (min-width:480px){
+    .hero-area .button{
+        display: flex;
+        height:100%;
+        flex-wrap: wrap;
+       flex-direction: column;
+   
+  
+    }
+
+    /*.hero-text{
+       display:flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       flex-wrap: wrap;
+       
+        
+    }*/
+}
+
+#contact-me{
+    margin:0;
+    padding:15px
+
+}
+
+.address{
+    color:aliceblue;
+    padding:15px;
+    margin:0px;
+}
+.email{
+    color:aliceblue;
+}
